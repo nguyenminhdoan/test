@@ -1,0 +1,217 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* End of reset css */
+
+.container {
+  width: 100vw;
+  height: 935px;
+  display: flex;
+}
+
+.sidebar {
+  background-color: #191718;
+  width: 260px;
+  /* min-width: 150px; */
+  height: 100%;
+  display: flex;
+}
+
+ul > li {
+  font-weight: bold;
+  font-size: 13px;
+  color: #fff;
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid #5c5c5c;
+}
+
+ul > li:hover {
+  background-color: #5c5c5c;
+  transition: all 0.5s linear;
+  cursor: pointer;
+}
+
+.main_layout {
+  flex-grow: 1;
+  display: flex;
+  max-height: 935px;
+  width: auto;
+  padding: 50px;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img_main {
+  width: 310px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.title_box {
+  border: 2px solid blue;
+  padding: 20px;
+  background-color: #efefef;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.info {
+  display: flex;
+  margin: 40px 0px;
+}
+
+.info_detail {
+  margin-right: 20px;
+  max-width: 470px;
+  max-height: 252px;
+  flex-wrap: wrap;
+}
+
+.info_img {
+  width: 80px;
+  height: 100px;
+  float: left;
+  top: 20px;
+}
+
+.info_title {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.footer {
+  display: inline;
+  border-top: 1px solid #191718;
+  width: 100%;
+  height: 79px;
+}
